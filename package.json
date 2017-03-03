@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "browserify src/background.js -o dist/background.js && browserify src/content.js -o dist/content.js && browserify src/popup.js -o dist/popup.js"
   },
   "repository": {
     "type": "git",
