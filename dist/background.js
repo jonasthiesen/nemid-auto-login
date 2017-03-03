@@ -537,7 +537,7 @@ module.exports = DefaultTesseract
 },{"../package.json":2,"./common/circularize.js":4,"./common/job":5,"./node/index.js":3,"object-assign":1}],7:[function(require,module,exports){
 const Tesseract = require('tesseract.js');
 
-chrome.browserAction.onClicked.addListener(function(tab) { alert("test")});
+chrome.browserAction.onClicked.addListener(function(tab) {});
 },{"tesseract.js":6}],8:[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
