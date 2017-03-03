@@ -1,0 +1,22 @@
+{
+  "name": "nemid_chrome_extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonasthiesen/nemid-auto-login.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonasthiesen/nemid-auto-login/issues"
+  },
+  "homepage": "https://github.com/jonasthiesen/nemid-auto-login#readme",
+  "dependencies": {
+    "tesseract.js": "^1.0.10"
+  }
+}

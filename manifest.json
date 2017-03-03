@@ -12,16 +12,16 @@
     "128": "icon.png"
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["dist/background.js"]
   },
   "content_scripts": [
     {
-      "matches": [""],
-      "js": ["content.js"]
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"]
     }
   ],
   "permissions": [
     "*://*/*",
     "storage"
-  ]
-}
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/worker.js https://cdn.rawgit.com/naptha/tesseract.js-core/0.1.0/index.js; object-src 'self'"}
