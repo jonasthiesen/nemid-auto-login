@@ -1,7 +1,7 @@
 {
   "name": "NemID AutoLogin",
   "version": "0.0.1",
-  "manifest_version": 1,
+  "manifest_version": 2,
   "description": "Snap a picture of your ID card and we'll handle the rest.",
   "browser_action": {
     "default_icon": "icon.png"
